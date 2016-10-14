@@ -4,7 +4,7 @@ a winstion plugin for winston
 ###usage
 
 ```javascript
-#### hapi.js
+// hapi.js
 import hapiWinston from 'hapi-winston'
 
 server.register(
@@ -20,7 +20,7 @@ server.register(
 )
 
 
-####logger.js
+// logger.js
 import winston from 'winston'
 import RotateFile from 'winston-daily-rotate-file'
 import moment from 'moment'
@@ -77,7 +77,7 @@ const logger = new (winston.Logger)({
 
 export default logger
 
-####inject global function 
+// inject global function
 global.logger = require('./logger.js')
 
 ```

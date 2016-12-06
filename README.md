@@ -1,5 +1,7 @@
 # hapi-winston
-a winstion plugin for winston
+a winstion plugin for hapijs
+
+
 
 ###usage
 

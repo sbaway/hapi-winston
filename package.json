@@ -1,6 +1,6 @@
 {
   "name": "hapi-winston",
-  "version": "2.1.0",
+  "version": "2.6.0",
   "description": "hapi plugin for winston",
   "main": "./lib/index.js",
   "scripts": {

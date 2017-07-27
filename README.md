@@ -3,7 +3,7 @@ a winstion plugin for hapijs
 
 
 
-###usage
+### usage
 
 ```javascript
 // hapi.js
